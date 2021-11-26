@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
-name = "project-layout"
+name = "my_cli"
+version = "0.1.0"
+dependencies = [
+ "my_lib",
+]
+
+[[package]]
+name = "my_lib"
 version = "0.1.0"
